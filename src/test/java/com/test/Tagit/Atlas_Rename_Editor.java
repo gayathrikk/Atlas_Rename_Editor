@@ -36,10 +36,10 @@ public void Login() throws InterruptedException {
 
     WebDriverWait wait = new WebDriverWait(driver, 50);
     try {
-        WebElement viewerSectionLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@class, 'ng-tns-c93-3')]")));
-        viewerSectionLink.click();
-        System.out.println("--------------------------*****************-----------------------");
-        System.out.println("The Viewer Icon is clicked");
+        // WebElement viewerSectionLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@class, 'ng-tns-c93-3')]")));
+        // viewerSectionLink.click();
+        // System.out.println("--------------------------*****************-----------------------");
+        // System.out.println("The Viewer Icon is clicked");
 
         String parentWindow = driver.getWindowHandle();
         WebElement login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()=' Log In ']")));
