@@ -56,7 +56,7 @@ public void Login() throws InterruptedException {
         }
 
         WebElement emailInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@type='email']")));
-        emailInput.sendKeys("softwaretestingteam9@gmail.com");
+        emailInput.sendKeys("teamsoftware457@gmail.com");
         System.out.println("--------------------------*****************-----------------------");
         System.out.println("Mail ID is entered");
 
